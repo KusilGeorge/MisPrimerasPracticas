@@ -1,0 +1,48 @@
+Menu Principal
+
+Elige un tema
+
+Frutas
+Vegetales
+Carnes
+Bebidas
+
+*Frutas
+	-Manzana      -Coco            -Melocoton       -Fresa           -Avellana
+	-Pera	      -Parchita        -Ciruela		-Kiwi            -Mani
+	-Cambur	      -Lechoza         -Higo            -Frambuesa       -Arandanos   
+	-Mango	      -Patilla         -Mandarina       -Pomelo          -Pecana
+	-Uva	      -Limon   	       -Melon   	-Nispero   	 -Pistacho
+	-Naranja      -Cereza	       -Piña   		-Almendra	 -Mora
+	 
+	-Nuez
+	
+	
+//Durazno
+
+*Vegetales
+	-Pepino   	Pimenton	Maiz		Champiñon	Nabo
+	-Coliflor       Auyama		Brocoli		Batata		Yuca
+	-Berenjena      Ajo		Apio		Repollo		-Chayota
+	-Calabacin      Zanahoria	Remolacha	Esparrago	Perejil
+	-Tomate         Papa		Rabano		Espinacas	Cebollin
+	-Cebolla	Lechuga		Guisante	Aguacate	Ajo Porro
+
+*Carnes
+	-Pollo		Filete
+	-Carne		Costilla
+	-Pescado 	Chuleta
+	-Pavo
+	-Cerdo
+	-Embutido
+
+*Bebidas 
+	-Agua   .		Malteadas
+	-Jugo de Fruta		Frappes
+	-Leche    .		Cocktail
+	-Te    .		Soda
+	-Cafe   .		
+	-Refresco  .
+
+
+

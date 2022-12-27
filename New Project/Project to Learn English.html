@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Project to Learn English</title>
+        <style type="text/css"> BODY{ font-family: 'Poppins', sans-serif, bold;} </style>
+        
+    </head>
+
+    <body>
+
+        <section class="seccion-intro" id="pagina-intro">
+
+            <p id="texto-intro">Server Under Constructoin</p>
+            <input id="usuario" type="text" >Usuario
+            <input id="contraseña" type="password">Contraseña
+            <button id="boton-probar-pagina">Log In</button>
+            
+        </section>
+
+        <section id="seccion-maestra">
+            <section class="menu-izquierdo">
+
+                <div id="perfil" >
+                    <img src="./assets/perfil.png" alt="" style="border-radius: 10px;">
+                    <p style="margin: 1px;">Nombre : Nino X</p>
+                    <p style="margin: 1px;">Cuenta : Alumno</p>
+                    <p style="margin: 1px;">Grado : 4º grado</p>
+                    <button id="boton-log-out" onclick="">Log Out</button>
+                </div>
+                <div id="nuevo-ingreso">
+                    <p>Ingresar un Nuevo Alumno</p>
+                    <input id="nuevo-usuario" tipe="text">Nombre del Alumno
+                    <input id="nueva-contraseña" tipe="text">Contraseña del Alumno
+                    <button id="crear-cuenta" onclick="crearCuenta()">Crear</button> 
+                </div>
+                <div id="menu-raiz">
+                    <h4>Navegador</h4>
+                    <button id="boton-intro" class="botones-raiz"><strong>Noticias</strong></button>
+                    <button id="boton-practica" class="botones-raiz" ><strong>Practica</strong></button>
+                    <button id="boton-tarjetas" class="botones-raiz" ><strong>Tarjetas</strong></button>
+                    <button id="boton-comidas" class="botones-raiz" style="text-indent: 2em;"><strong>Comidas</strong></button>
+                    <button id="medios-de-transporte" class="botones-raiz" style="text-indent: 2em;"><strong>Medios de Transporte</strong></button>
+                    <button id="utiles-escolares" class="botones-raiz" style="text-indent: 2em;"><strong>Utiles Escolares</strong></button>
+                    <button id="vestimentas" class="botones-raiz" style="text-indent: 2em;"><strong>Vestimentas</strong></button>
+                    <button id="diccionario" class="botones-raiz" ></button>Diccionario Ingles-Español</button>
+                    <p>En esta seccion vamos a poder viajar entre las distintas areas de actividad de toda la pagina</p>
+                    <p>Va a funcionar con un menu de listas desplegables, con sub indices</p>
+                </div>
+
+            </section>
+
+            <div>
+                <div id="menu-derecho">
+                    <div id="estadisticas">
+                        <h1>Caracteristicas del desarrollo del usuario</h1>
+                        <p style="margin: 1px;">En esta seccion vamos a mostrar todas las caracteristicas resultantes
+                            de las actividades realizadas dentro de esta pagina</p>
+                        <p>Toda esta informacion se debe de ir actualizando conforme 
+                            el usuario va realizando actividades nuevas en la pagina</p>
+                        <p></p>
+                    </div>
+
+                    <div id="titulo-del-menu">
+                        <h3>Elige una Tarjeta</h3>
+                    </div>
+
+                    <div id="area-de-navegacion">
+                        <button id="boton-volver-al-menu" class="botones-de-navegacion"> Volver</button>
+                        <button id="boton-pagina-anterior" class="botones-de-navegacion">Pagina Anterior</button>
+                        <button id="boton-pagina-siguinte" class="botones-de-navegacion">Pagina Siguiente</button>
+                    </div>
+                </div>
+                
+                <div>
+                    <div id="menu-principal">
+
+                        <div id="menu-introduccion">
+                   
+
+                            <div class="mensajes-de-introduccion">
+                                <h2>Bienvenido a tu Curso de ingles</h2>
+                            </div>
+
+                            <div class="mensajes-de-introduccion">
+                                <p>Aqui vas a aprender en el idioma ingles, todas las palabras que ya conoces en tu idima español
+                                a travez de una gran biblioteca de elementos que te los mostraran como son en tu dia a dia.</p>
+                            </div>
+                            
+                            <div class="mensajes-de-introduccion">
+                                <p>Tambien encontraras distintas actividades con las que podras aprender y mejorar tu compresion de
+                                este nuevo idioma.
+                                </p>
+                            </div>
+
+                            <div class="mensajes-de-introduccion">
+                                <p>Ademas podras ir mejorando tu perfil a traves de las actividades que realizes y esto te 
+                                permitira modificar tu entorno a tu gusto a medida que vayas avanzando y seas el mejorando
+                                 hablando ingles.
+                                </p>
+                            </div>
+
+                            
+                        </div>
+
+
+                        <div id="seleccion-del-tema">
+
+                            <div id="tarjetas"> 
+                                <button id="boton-frutas" class="botones" style="background-image: url(./assets/frutas.png);"></button>
+                                <p style="margin: 0px">Frutas</p>
+                            </div>
+                            
+                            <div id="tarjetas">
+                                <button id="boton-vegetales" class="botones" style="background-image: url(./assets/vegetales.png);"></button>
+                                <p style="margin: 0px">Vegetales</p>
+                            </div>
+
+                            <div id="tarjetas">
+                                <button id="boton-carnes" class="botones" style="background-image: url(./assets/carnes.png);"></button>
+                                <p style="margin: 0px">Carnes</p>
+                            </div>
+
+                            <div id="tarjetas">
+                                <button id="boton-bebidas" class="botones" style="background-image: url(./assets/bebidas.png);"></button>
+                                <p style="margin: 0px">Bebidas</p>
+                            </div>
+
+                            <div id="tarjetas">
+                                <button id="boton-super-mercado" class="botones" style="background-image: url(./assets/bebidas.png);"></button>
+                                <p style="margin: 0px">Bebidas</p>
+                            </div>
+                        </div>
+
+                        <div id="seleccion-de-fruta" class="menuDeTarjetas"> </div>
+                        <div id="seleccion-de-vegetales" class="menuDeTarjetas"></div>
+                        <div id="seleccion-de-carnes" class="menuDeTarjetas"></div>
+                        <div id="seleccion-de-bebidas" class="menuDeTarjetas"></div>
+
+
+                    </div>
+                       
+                </div>
+        
+            </div>
+
+        </section>    
+        <script src="./Js/Proyecto.js"></script>
+    </body>
+
+</html>
+

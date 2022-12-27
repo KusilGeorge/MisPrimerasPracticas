@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&family=Rubik+Vinyl&display=swap');
+
+.seccion-intro {
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(./assets/fondoMantenimiento2.png);
+    width: 1350px;
+    height: 640px;
+    background-size: 1350px 640px;
+    font-family: 'Rubik Vinyl', cursive;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto-intro {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color:dodgerblue;
+}
+
+#boton-probar-pagina {
+    margin-top: 25px;
+}
+
+#seccion-maestra {
+    display: flex;
+}
+
+.menu-izquierdo {
+    background-color: aqua;
+    background-size: 1350px 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-derecho {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#estadisticas {
+    background-color: blueviolet;
+    width: 960px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    border: lightsalmon;
+    border-width: 4px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#seleccion-del-tema {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background-color: deeppink;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    border: darkslateblue;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    width: 197.5px;
+    height: 150px;
+    border-radius: 10px;
+    border: darkcyan;
+    border-width: 4px;
+    border-style: solid;
+    
+}
+
+#perfil {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    border: darkslateblue;
+    border-width: 4px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#menu-raiz {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color:lightcoral;
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    border: darkgreen;
+    border-width: 4px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.botones-raiz {
+    background-color: transparent;
+    border: transparent;
+}   
+
+#nuevo-ingreso {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#menu-introduccion {
+    display: flex;
+    flex-direction: column;
+    width: 1008px;
+    height: auto;
+    background: pink;
+    gap: 10px;
+    
+}
+
+.mensajes-de-introduccion {
+    border-radius: 10px;
+    border: rgb(38, 80, 170);
+    border-width: 4px;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+#titulo-del-menu {
+    background-color: rgb(230, 74, 74);
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:lawngreen;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.botones {
+    background-size: 150px 100px;
+    height: 100px;
+    width: 150px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.menuDeTarjetas {
+    background-color:lightslategray;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto  ; 
+}
+
+
+.tarjetas {
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: large;
+    width: 300px;
+    height: 400px;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+#area-de-navegacion {
+    gap: 10px;
+}
+
+.botones-de-navegacion {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    border: lawngreen;
+    border-width: 4px;
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    margin: 5px;
+}
